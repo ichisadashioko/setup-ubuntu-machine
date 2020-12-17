@@ -20,7 +20,7 @@ export ADBLOCK=1
 ## Change timezone
 
 ```sh
-sudo dpkg-reonfigure tzdata
+sudo dpkg-reconfigure tzdata
 ```
 
 ## Install some development packages
