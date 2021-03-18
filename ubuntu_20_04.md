@@ -10,6 +10,7 @@ PROMPT_DIRTRIM=1
 shopt -s dotglob
 
 alias aup="sudo apt update"
+alias ain="sudo apt install"
 alias ll="ls -la"
 alias la="ls -a"
 
