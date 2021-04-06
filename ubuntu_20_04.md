@@ -16,6 +16,12 @@ alias la="ls -a"
 
 # block core-js ads
 export ADBLOCK=1
+
+# change default text editor from nano to vi # f888 nano
+export EDITOR=$(which vi)
+
+# git/gpg signing problem
+export GPG_TTY=$(tty)
 ```
 
 ## Change timezone
